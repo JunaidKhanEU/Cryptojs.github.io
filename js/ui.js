@@ -89,7 +89,7 @@ class UI {
 
     animationGif(){
         const spinGif = document.createElement('img')
-        spinGif.src = '/img/spinner.gif'
+        spinGif.src = 'spinner.gif'
         document.querySelector('.spinner').appendChild(spinGif)
     }
 }
